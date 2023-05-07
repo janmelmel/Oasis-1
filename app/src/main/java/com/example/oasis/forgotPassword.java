@@ -20,6 +20,7 @@ public class forgotPassword extends AppCompatActivity {
             public void onClick(View view) {
                 openLogin();
             }
+            //sdasdagadsfsasd
         });
     }
 
