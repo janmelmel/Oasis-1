@@ -8,76 +8,80 @@
     android:background="@drawable/yogabg">
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/relaxBtn"
         android:layout_width="280dp"
         android:layout_height="30dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="124dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Y2" />
+        app:srcCompat="@drawable/y1" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="280dp"
         android:layout_height="30dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="14dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:srcCompat="@drawable/Y3" />
+        app:layout_constraintTop_toBottomOf="@+id/relaxBtn"
+        app:srcCompat="@drawable/y3" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="280dp"
         android:layout_height="30dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="14dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:srcCompat="@drawable/Y4" />
+        app:srcCompat="@drawable/y4" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="280dp"
         android:layout_height="30dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="14dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/Y5" />
+        app:srcCompat="@drawable/y5" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="280dp"
         android:layout_height="30dp"
-        android:layout_marginTop="12dp"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:srcCompat="@drawable/Y6"
-        tools:layout_editor_absoluteX="66dp" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="280dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="14dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11"
-        app:srcCompat="@drawable/Y1" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/y6" />
 
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="250dp"
         android:layout_height="75dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:srcCompat="@drawable/BUY" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/buy" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.257"
+        app:srcCompat="@drawable/ym1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
