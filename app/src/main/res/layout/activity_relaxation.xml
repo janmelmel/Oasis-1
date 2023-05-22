@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Relaxation"
-    android:background="@drawable/yogabg">
+    android:background="@drawable/yogabg"
+    tools:context=".Relaxation">
 
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="123dp"
-        android:layout_height="20dp"
+        android:id="@+id/textView10"
+        android:layout_width="125dp"
+        android:layout_height="18dp"
         android:layout_marginStart="44dp"
         android:layout_marginLeft="44dp"
         android:layout_marginTop="4dp"
-        android:text="Cow Pose"
+        android:text="Downward Facing"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
@@ -36,12 +36,10 @@
         android:layout_width="125dp"
         android:layout_height="20dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
         android:text="Wide Child's Pose"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
     <ImageView
@@ -64,12 +62,9 @@
         android:layout_height="125dp"
         android:layout_marginStart="44dp"
         android:layout_marginLeft="44dp"
-        android:layout_marginTop="43dp"
-        android:layout_marginBottom="220dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="44dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
         app:srcCompat="@drawable/yp3" />
 
     <TextView
@@ -106,7 +101,7 @@
         android:layout_marginBottom="220dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toEndOf="@+id/imageView17"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         app:layout_constraintVertical_bias="0.0"
@@ -122,7 +117,7 @@
         android:text="Downward Facing"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/imageView20"
         app:layout_constraintVertical_bias="0.0" />
@@ -131,15 +126,13 @@
         android:id="@+id/imageView18"
         android:layout_width="125dp"
         android:layout_height="125dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="44dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="164dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.217"
         app:srcCompat="@drawable/yp7" />
 
     <ImageView
@@ -151,6 +144,6 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/y1" />
+        app:srcCompat="@drawable/y3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

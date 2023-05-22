@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Oasis"
         tools:targetApi="31">
         <activity
+            android:name=".StressRelief"
+            android:exported="false" />
+        <activity
+            android:name=".Flexibility"
+            android:exported="false" />
+        <activity
+            android:name=".Beginners"
+            android:exported="false" />
+        <activity
             android:name=".Relaxation"
             android:exported="false" />
         <activity

@@ -8,7 +8,7 @@
     android:background="@drawable/yogabg">
 
     <ImageView
-        android:id="@+id/relaxBtn"
+        android:id="@+id/beginnersbtn"
         android:layout_width="280dp"
         android:layout_height="30dp"
         android:layout_marginTop="124dp"
@@ -19,46 +19,36 @@
         app:srcCompat="@drawable/y1" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/relaxbtn"
         android:layout_width="280dp"
         android:layout_height="30dp"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/relaxBtn"
+        app:layout_constraintTop_toBottomOf="@+id/beginnersbtn"
         app:srcCompat="@drawable/y3" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/flexbtn"
         android:layout_width="280dp"
         android:layout_height="30dp"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/relaxbtn"
         app:srcCompat="@drawable/y4" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/stressfbtn"
         android:layout_width="280dp"
         android:layout_height="30dp"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/y5" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="280dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="14dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/flexbtn"
         app:srcCompat="@drawable/y6" />
 
     <ImageView
@@ -69,7 +59,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/stressfbtn"
         app:srcCompat="@drawable/buy" />
 
     <ImageView
